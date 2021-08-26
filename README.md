@@ -1,5 +1,13 @@
 # Getting Started with Create React App
 
+const handleIncrement = (productId) => {
+setValue(value + 1);
+};
+
+const handleDecrement = () => {
+setValue(value - 1);
+};
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

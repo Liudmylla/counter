@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
-const Counter = () => {
+const CounterJSX = (props) => {
+  console.log(props)
   const [count, setCount] = useState(0);
   //const [imageUrl, setImageUrl] = useState("https://picsum.photos/200");
   const tags = ["tag1", "tag2", "tag3"];
@@ -68,4 +69,4 @@ const Counter = () => {
   );
 };
 
-export default Counter;
+export default CounterJSX;
